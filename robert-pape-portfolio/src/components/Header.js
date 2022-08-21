@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const styles = {
     header: {
@@ -33,16 +34,16 @@ function Header () {
                 <div id="navbarNavDropdown" style={styles.navbarNav}>
                   <ul className="navbar-nav me-auto">
                     <li className="nav-item">
-                      <a className="nav-link active text-white" aria-current="page" href="#" style={styles.a}>About Me</a>
+                      <Link className="nav-link active text-white" aria-current="page" to="/AboutMe" style={styles.a}>About Me</Link>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link active text-white" aria-current="page" href="#" style={styles.a}>Portfolio</a>
+                      <Link className="nav-link active text-white" aria-current="page" to="/Portfolio" style={styles.a}>Portfolio</Link>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link active text-white" aria-current="page" href="#" style={styles.a}>Contact</a>
+                      <Link className="nav-link active text-white" aria-current="page" to="/Contact" style={styles.a}>Contact</Link>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link active text-white" aria-current="page" href="#" style={styles.a}>Resume</a>
+                      <Link className="nav-link active text-white" aria-current="page" to="/Resume" style={styles.a}>Resume</Link>
                     </li>
                   </ul>
                 </div>
