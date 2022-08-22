@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/AboutMe/static/css/main.84487ea8.css",
-    "main.js": "/AboutMe/static/js/main.a74cc543.js",
-    "static/media/Profile-Pic.jpg": "/AboutMe/static/media/Profile-Pic.1916ac4076e1d0aa7f99.jpg",
-    "static/media/ZR-1-Stop-Shop.png": "/AboutMe/static/media/ZR-1-Stop-Shop.85258d42691ce2611f24.png",
-    "static/media/Resume.png": "/AboutMe/static/media/Resume.5f4b1af3755a5ce8f669.png",
-    "static/media/E-commerce.png": "/AboutMe/static/media/E-commerce.928f76b6edfce439b39f.png",
-    "static/media/Trivia-War.png": "/AboutMe/static/media/Trivia-War.4f35d06978dd75b3913e.png",
-    "static/media/Arizona-Desert-Mountains.jpg": "/AboutMe/static/media/Arizona-Desert-Mountains.aa0926c0173ff2f6a8b9.jpg",
-    "static/media/Employee-Tracker.png": "/AboutMe/static/media/Employee-Tracker.108edf7278fb44f40246.png",
-    "index.html": "/AboutMe/index.html",
-    "main.84487ea8.css.map": "/AboutMe/static/css/main.84487ea8.css.map",
-    "main.a74cc543.js.map": "/AboutMe/static/js/main.a74cc543.js.map"
+    "main.css": "/React-Portfolio/static/css/main.84487ea8.css",
+    "main.js": "/React-Portfolio/static/js/main.caeec069.js",
+    "static/media/Profile-Pic.jpg": "/React-Portfolio/static/media/Profile-Pic.1916ac4076e1d0aa7f99.jpg",
+    "static/media/ZR-1-Stop-Shop.png": "/React-Portfolio/static/media/ZR-1-Stop-Shop.85258d42691ce2611f24.png",
+    "static/media/Resume.png": "/React-Portfolio/static/media/Resume.5f4b1af3755a5ce8f669.png",
+    "static/media/E-commerce.png": "/React-Portfolio/static/media/E-commerce.928f76b6edfce439b39f.png",
+    "static/media/Trivia-War.png": "/React-Portfolio/static/media/Trivia-War.4f35d06978dd75b3913e.png",
+    "static/media/Arizona-Desert-Mountains.jpg": "/React-Portfolio/static/media/Arizona-Desert-Mountains.aa0926c0173ff2f6a8b9.jpg",
+    "static/media/Employee-Tracker.png": "/React-Portfolio/static/media/Employee-Tracker.108edf7278fb44f40246.png",
+    "index.html": "/React-Portfolio/index.html",
+    "main.84487ea8.css.map": "/React-Portfolio/static/css/main.84487ea8.css.map",
+    "main.caeec069.js.map": "/React-Portfolio/static/js/main.caeec069.js.map"
   },
   "entrypoints": [
     "static/css/main.84487ea8.css",
-    "static/js/main.a74cc543.js"
+    "static/js/main.caeec069.js"
   ]
 }
