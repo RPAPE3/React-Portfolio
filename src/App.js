@@ -14,6 +14,11 @@ function App() {
       <Header />
         <Routes>
         <Route 
+        path='/'
+        exact
+        element={<AboutMe />}
+        />
+        <Route 
         path="/AboutMe"
         element={<AboutMe />}
         />
@@ -30,7 +35,7 @@ function App() {
         element={<Resume />}
         />
         <Route 
-        path='/'
+        path='/React-Portfolio'
         element={<AboutMe />}
         />
         </Routes>

@@ -29,7 +29,7 @@ function Resume () {
 
             ) : (
 
-                <button class="btn btn-dark opacity-40 border border-warning border-5 border-opacity-50" type="button" style={styles.button} onClick={() => setResume(true)}> <h1>View Resume</h1></button>
+                <button className="btn btn-dark opacity-40 border border-warning border-5 border-opacity-50" type="button" style={styles.button} onClick={() => setResume(true)}> <h1>View Resume</h1></button>
 
             )}
         </div>
