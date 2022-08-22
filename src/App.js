@@ -30,7 +30,7 @@ function App() {
         element={<Resume />}
         />
         <Route 
-        path='/'
+        path='/React-Portfolio/'
         element={<AboutMe />}
         />
         </Routes>
