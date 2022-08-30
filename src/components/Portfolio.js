@@ -1,4 +1,5 @@
 import React from 'react';
+import WYD from '../images/User-Feed-Page.png'
 import ZR1 from '../images/ZR-1-Stop-Shop.png';
 import Trivia from '../images/Trivia-War.png';
 import Ecommerce from '../images/E-commerce.png';
@@ -21,7 +22,12 @@ const styles = {
         height: '80%',
         marginTop: '7%',
         marginLeft: '5%',
-    }, 
+    },
+    wydImage: {
+        height: '63%',
+        marginTop: '1%',
+        marginLeft: '5%',
+    },
     triviaImg: {
         height: '60%',
         marginTop: '2%',
@@ -53,22 +59,22 @@ function Portfolio () {
             <div className="card mb-3" style={styles.cards}>
                 <div className="row g-0">
                     <div className="col-md-7">
-                        <img src={ZR1} className="img-fluid rounded-start" style={styles.images} alt="..."/>
+                        <img src={WYD} className="img-fluid rounded-start" style={styles.wydImage} alt="..."/>
                     </div>
                     <div className="col-md-5">
                         <div className="card-body" style={styles.cardBody}>
-                            <h3 className="card-title" id="two">ZR-1-Stop-Shop</h3>
-                            <p className="card-text text-decoration-underline" style={styles.cardP}>Interactive Full-Stack Project:</p>
+                            <h3 className="card-title" id="two">WYD</h3>
+                            <p className="card-text text-decoration-underline" style={styles.cardP}>Interactive MERN Stack Single-Page Application:</p>
                             <ul>
-                                <li>MySQL / Sequelize ORM for database</li>
-                                <li>Node.js and Express.js for RESTful API</li>
-                                <li>GET and POST routes</li>
-                                <li>Responsive, Interactive, Authentication</li>
+                                <li>GraphQL with a Node.js and Express.js server</li>
+                                <li>MongoDB and Mongoose ODM for database</li>
+                                <li>queries and mutations for retrieving, adding, updating, and deleting data</li>
+                                <li>React for the front end</li>
                             </ul>
-                            <p className="card-text"><small className="text-white-30">JavaScript / Handlebars / CSS</small></p>
-                            <a href="https://whispering-basin-00391.herokuapp.com/" target="_blank" className="btn btn-primary">Go To Deployed Application</a>
+                            <p className="card-text"><small className="text-white-30">MongoDB / Express / React.JS / Node.JS / BCrypt Authentication</small></p>
+                            <a href="https://peaceful-reef-29677.herokuapp.com/" target="_blank" className="btn btn-primary">Go To Deployed Application</a>
                             <br/>
-                            <a href="https://github.com/RPAPE3/Project-2" target="_blank" className="btn btn-primary" style={styles.cardA}>Go To GitHub Repo</a>
+                            <a href="https://github.com/RPAPE3/WYD" target="_blank" className="btn btn-primary" style={styles.cardA}>Go To GitHub Repo</a>
                         </div>
                     </div>
                 </div>
