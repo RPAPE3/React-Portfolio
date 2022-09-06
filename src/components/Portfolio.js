@@ -6,11 +6,6 @@ import Ecommerce from '../images/E-commerce.png';
 import EmployeeTracker from '../images/Employee-Tracker.png'
 
 const styles = {
-    mainCard: {
-        width: "18rem",
-        // height: "20rem",
-        backgroundColor: '#9bb7d0',
-    },
     mainP: {
         marginBottom: -2,
     },
@@ -19,24 +14,24 @@ const styles = {
         backgroundColor: '#9bb7d0',
     },
     images: {
-        height: '80%',
-        marginTop: '7%',
-        marginLeft: '5%',
+        // height: '80%',
+        // marginTop: '7%',
+        // marginLeft: '5%',
     },
     wydImage: {
-        height: '63%',
-        marginTop: '1%',
-        marginLeft: '5%',
+        // height: '63%',
+        // marginTop: '1%',
+        // marginLeft: '5%',
     },
     triviaImg: {
-        height: '60%',
-        marginTop: '2%',
-        marginLeft: '10%'
+        // height: '60%',
+        // marginTop: '2%',
+        // marginLeft: '10%'
     },
     Ecommerce: {
-        marginTop: '4%',
-        height: '80%',
-        marginLeft: '10%'
+        // marginTop: '4%',
+        // height: '80%',
+        // marginLeft: '10%'
     },
     cardP: {
         marginBottom: -2,
@@ -52,14 +47,14 @@ const styles = {
 
 function Portfolio () {
     return (
-        <section className="container">
+        <section className="container" style={{}}>
 
             <br/>
             
-            <div className="card mb-3" style={styles.cards}>
+            <div className="card overflow-auto mb-5" style={styles.cards}>
                 <div className="row g-0">
                     <div className="col-md-7">
-                        <img src={WYD} className="img-fluid rounded-start" style={styles.wydImage} alt="..."/>
+                        <img src={WYD} className="img-fluid rounded float-start" style={styles.wydImage} alt="..."/>
                     </div>
                     <div className="col-md-5">
                         <div className="card-body" style={styles.cardBody}>
@@ -80,9 +75,8 @@ function Portfolio () {
                 </div>
             </div>
 
-            <br/>
 
-                <div className="card mb-3" style={styles.cards}>
+                <div className="card overflow-auto mb-5" style={styles.cards}>
                     <div className="row g-0">
                         <div className="col-md-5">
                             <div className="card-body" style={styles.cardBody}>
@@ -100,17 +94,16 @@ function Portfolio () {
                             <a href="https://github.com/RPAPE3/Project-2" target="_blank" className="btn btn-primary" style={styles.cardA}>Go To GitHub Repo</a>
                             </div>
                         </div>
-                        
                         <div className="col-md-7">
-                            <img src={ZR1} className="img-fluid rounded-start" style={styles.images} alt="..."/>
+                            <img src={ZR1} className="img-fluid rounded float-end" style={styles.images} alt="..."/>
                         </div>
                     </div>
                   </div>
 
-                  <div className="card mb-3" style={styles.cards}>
+                  <div className="card overflow-auto mb-5" style={styles.cards}>
                     <div className="row g-0" >
                         <div className="col-md-7">
-                            <img src={Trivia} className="img-fluid rounded-start" style={styles.triviaImg} alt="..."/>
+                            <img src={Trivia} className="img-fluid rounded float-start" style={styles.triviaImg} alt="..."/>
                         </div>
                         <div className="col-md-5">
                             <div className="card-body" style={styles.cardBody}>
@@ -131,7 +124,7 @@ function Portfolio () {
                     </div>
                   </div>
 
-                  <div className="card mb-3" style={styles.cards}>
+                  <div className="card overflow-auto mb-5" style={styles.cards}>
                     <div className="row g-0">
                         <div className="col-md-5">
                             <div className="card-body" style={styles.cardBody}>
@@ -151,15 +144,15 @@ function Portfolio () {
                         </div>
                         
                         <div className="col-md-7">
-                            <img src={Ecommerce} className="img-fluid rounded-start" style={styles.Ecommerce} alt="..."/>
+                            <img src={Ecommerce} className="img-fluid rounded float-end" style={styles.Ecommerce} alt="..."/>
                         </div>
                     </div>
                   </div>
 
-              <div className="card mb-3" style={styles.cards}>
+              <div className="card overflow-auto mb-3" style={styles.cards}>
                 <div className="row g-0">
                     <div className="col-md-7">
-                        <img src={EmployeeTracker} className="img-fluid rounded-start" style={styles.images} alt="..."/>
+                        <img src={EmployeeTracker} className="img-fluid rounded float-start" style={styles.images} alt="..."/>
                     </div>
                     <div className="col-md-5">
                         <div className="card-body" style={styles.cardBody}>

@@ -29,7 +29,7 @@ function Header () {
             <div className="container-fluid">
               <div className = " navbar-collapse" style={styles.navbarCollapse} id="navbarText">
 
-                <h1 className="navbar-nav me-auto" style={styles.h1}>Robert Pape</h1>
+                 <h1 className="navbar-nav me-auto" style={styles.h1}> <Link className="nav-link active text-white" aria-current="page" to='/AboutMe'>Robert Pape</Link></h1>
         
                 <div id="navbarNavDropdown" style={styles.navbarNav}>
                   <ul className="navbar-nav me-auto">
@@ -56,3 +56,5 @@ function Header () {
 }
 
 export default Header;
+
+

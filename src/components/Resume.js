@@ -3,9 +3,9 @@ import ResumeImg from '../images/Resume.png'
 
 const styles = {
     button: {
-        width: '25%',
+        width: '35%',
         height: '15%',
-        marginLeft: '38%',
+        marginLeft: '35%',
         marginTop: '10%',
     },
     divImg: {
